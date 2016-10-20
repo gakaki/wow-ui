@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wow-ui'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of wow-ui.'
+  s.version          = '0.1.1'
+  s.summary          = ' wow-ui 是尖叫设计的自由ui库 依赖于vendo ui和uitil'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+wow-ui 是尖叫设计的自由ui库 依赖于vendo ui和uitil
                        DESC
 
   s.homepage         = 'https://github.com/gakaki/wow-ui'
