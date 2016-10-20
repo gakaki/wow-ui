@@ -11,7 +11,8 @@ wow-ui 是尖叫设计的自由ui库 依赖于vendo ui和uitil
   s.homepage         = 'https://github.com/gakaki/wow-ui'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gakaki' => 'gakaki@gmail.com' }
-  s.source           = { :git => 'https://github.com/gakaki/wow-ui.git', :tag => s.version.to_s }
+  # s.source           = { :git => 'https://github.com/gakaki/wow-ui.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gakaki/wow-ui.git', :branch => "master" }
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'wow-ui/Classes/**/*.{h,m,swift}'
